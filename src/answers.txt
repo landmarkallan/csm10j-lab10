@@ -1,0 +1,9 @@
+1. If I'm understanding this correctly, when you run the method call outside of the 'try', the built-in Java exception handling kicks in, giving us the long-full detailed output from the exception class'-object's methods, whereas, when the method call is run from inside of the 'try', then, while still catching the same exception error, it instead displays our set output for it "Part A.1: caught ..."
+
+2. no, it doesn't compile due to unreported exception ("nofile.txt" doesn't exist ~ can't be found). ~~~ I addded in the imports, not sure if suppose to do this or not. Without the imports, I get more errors.
+
+3. yes ~~~ I addded in the imports, not sure if suppose to do this or not. Without the imports, I get errors (the compiling fails).
+
+4. it compiled fine for me ~~~ I addded in the imports, not sure if suppose to do this or not. Without the imports, I get errors (the compiling fails). Also, I did this for my throw statement: throw fnfe // fnfe is the Object reference parameter
+
+5. I'm confused by what I'm suppose to do with question B.1.3.5 (add ioexception to method header), I presume this means the 'OpenFileChecked()', but I don't know where you want this to be added to..., as my code already compiles without doing this. In running the program, it successfully caught the ioexception error, getting the output: PartB: Caught IOException
